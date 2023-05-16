@@ -65,11 +65,7 @@ setup(
 
   # You can just specify the packages manually here if your project is
   # simple. Or you can use find_packages().
-  packages=['robustness',
-	    'robustness.tools',
-            'robustness.cifar_models',
-	    'robustness.imagenet_models'
-	    ],
+  packages=find_packages(),
 
   include_package_data=True,
   package_data={
